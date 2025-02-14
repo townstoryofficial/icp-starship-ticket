@@ -1,0 +1,19 @@
+{
+    "canisters": {
+        "game_pass": {
+            "main": "src/main.mo",
+            "type": "motoko",
+            "gzip": true
+        }
+    },
+    "defaults": {
+        "build": {
+            "args": "",
+            "packtool": "mops sources"
+        },
+        "replica": {
+            "subnet_type": "system"
+        }
+    },
+    "version": 1
+}
